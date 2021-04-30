@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RuntimePermissionDemo</string>
+    <string name="text1">开始打电话</string>
+    <string name="text2">开始拍照</string>
+</resources>
