@@ -17,7 +17,7 @@ import java.util.List;
 public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.TextViewHolder> implements Filterable {
     @NonNull
 //    private List<String> mItems = new ArrayList<>();
-    //一个是过滤之前的列表，一个是过滤之后的列表
+//   一个是过滤之前的列表，一个是过滤之后的列表
     private List<String> mSourceList = new ArrayList<>();
     private List<String> mFilterList = new ArrayList<>();
 

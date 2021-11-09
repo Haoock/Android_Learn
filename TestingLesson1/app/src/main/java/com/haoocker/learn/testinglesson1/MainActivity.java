@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
+            //sequence
             @Override
             public void onTextChanged(CharSequence sequence, int i, int i1, int i2) {
                 mSearchAdapter.getFilter().filter(sequence.toString());
